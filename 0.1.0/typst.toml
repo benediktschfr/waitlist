@@ -1,0 +1,10 @@
+[package]
+name = "waitlist"
+version = "0.1.0"
+authors = ["Benedikt Schäfer"]
+entrypoint = "lib.typ"
+description = "Create waitlist entry sheets for a psychotherapy outpatient clinic"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
